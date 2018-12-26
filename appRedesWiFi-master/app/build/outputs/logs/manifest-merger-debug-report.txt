@@ -1,0 +1,262 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\25ab6605517ae5d63f5dc27400025e8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\093c9fa7a949b55042b975a2c117195e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\733a9d4c6d6e99a45eb799e6d244fc4e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\c8d01f214b22161e57d14f544b362b4c\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\667044664671ddc99d1e013cf53421e0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\518a5b947be4317e0706841536a0993e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2343d35a43a5c2904fbea3bd1afbc87c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\66754c3aebe35979ced9d9998f04037a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e3de64b43c4e4a4b2cf987eacf817a69\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\d133d6b0ac79d31912f0ec165a3c7cb0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b04642bbae3bc542861237cd4a420930\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c17cf56256c4d338b150582d2ccad2d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c23c5bbc061eb16b2d3f45e68c23f6e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\abab71290bbb9beb11276f4b42e8aff9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\be44402fc74bc5d775361ad5481aad96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c4d94dd916e9fd5d8f0adfbd2f3b7380\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\52184b15486471f33bfcb0bb3fca0501\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cab3ad27f467f78b8b1f7dba125ce2ff\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3eefd9f5b81bcf51d8ceab11269b6aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\483c5277db909729cea2c48dcf060c17\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efc6a1b37f6485fc3fa5e1eaa781c6f5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\b03c378e1b94e06f036f88d1fcab4f2f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be0b4ac8aa542b1cd83a7a1770585aa4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc249b5ab0ef512c0ce82eeeaa935850\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+	package
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:1-56:12
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:11:5-76
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:12:22-64
+application
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:14:5-54:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\733a9d4c6d6e99a45eb799e6d244fc4e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\733a9d4c6d6e99a45eb799e6d244fc4e\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\518a5b947be4317e0706841536a0993e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\518a5b947be4317e0706841536a0993e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2343d35a43a5c2904fbea3bd1afbc87c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2343d35a43a5c2904fbea3bd1afbc87c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e3de64b43c4e4a4b2cf987eacf817a69\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e3de64b43c4e4a4b2cf987eacf817a69\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\d133d6b0ac79d31912f0ec165a3c7cb0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\d133d6b0ac79d31912f0ec165a3c7cb0\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:20:9-40
+activity#redescomputacionales.cl.appredeswifi.SplashActivity
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:23:9-29:20
+	android:theme
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:25:13-47
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:24:13-43
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:26:13-28:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:27:25-66
+activity#redescomputacionales.cl.appredeswifi.MainActivity
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:30:9-39:20
+	android:label
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:34:13-38:29
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:37:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:48:9-50:71
+	android:value
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:50:13-68
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:49:13-58
+activity#redescomputacionales.cl.appredeswifi.RegistrosActivity
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:52:9-55
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:52:19-52
+activity#redescomputacionales.cl.appredeswifi.LoginActivity
+ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:53:9-60
+	android:name
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml:53:19-48
+uses-sdk
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\25ab6605517ae5d63f5dc27400025e8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\25ab6605517ae5d63f5dc27400025e8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\093c9fa7a949b55042b975a2c117195e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\093c9fa7a949b55042b975a2c117195e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\733a9d4c6d6e99a45eb799e6d244fc4e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\733a9d4c6d6e99a45eb799e6d244fc4e\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\c8d01f214b22161e57d14f544b362b4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\c8d01f214b22161e57d14f544b362b4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\667044664671ddc99d1e013cf53421e0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\667044664671ddc99d1e013cf53421e0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\518a5b947be4317e0706841536a0993e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\518a5b947be4317e0706841536a0993e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2343d35a43a5c2904fbea3bd1afbc87c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\2343d35a43a5c2904fbea3bd1afbc87c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\66754c3aebe35979ced9d9998f04037a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\66754c3aebe35979ced9d9998f04037a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e3de64b43c4e4a4b2cf987eacf817a69\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\e3de64b43c4e4a4b2cf987eacf817a69\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\d133d6b0ac79d31912f0ec165a3c7cb0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\d133d6b0ac79d31912f0ec165a3c7cb0\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b04642bbae3bc542861237cd4a420930\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\b04642bbae3bc542861237cd4a420930\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c17cf56256c4d338b150582d2ccad2d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c17cf56256c4d338b150582d2ccad2d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c23c5bbc061eb16b2d3f45e68c23f6e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c23c5bbc061eb16b2d3f45e68c23f6e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\abab71290bbb9beb11276f4b42e8aff9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\abab71290bbb9beb11276f4b42e8aff9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\be44402fc74bc5d775361ad5481aad96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\be44402fc74bc5d775361ad5481aad96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c4d94dd916e9fd5d8f0adfbd2f3b7380\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c4d94dd916e9fd5d8f0adfbd2f3b7380\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\52184b15486471f33bfcb0bb3fca0501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\52184b15486471f33bfcb0bb3fca0501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cab3ad27f467f78b8b1f7dba125ce2ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\cab3ad27f467f78b8b1f7dba125ce2ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3eefd9f5b81bcf51d8ceab11269b6aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e3eefd9f5b81bcf51d8ceab11269b6aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\483c5277db909729cea2c48dcf060c17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\483c5277db909729cea2c48dcf060c17\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efc6a1b37f6485fc3fa5e1eaa781c6f5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\efc6a1b37f6485fc3fa5e1eaa781c6f5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\b03c378e1b94e06f036f88d1fcab4f2f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\b03c378e1b94e06f036f88d1fcab4f2f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be0b4ac8aa542b1cd83a7a1770585aa4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\be0b4ac8aa542b1cd83a7a1770585aa4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc249b5ab0ef512c0ce82eeeaa935850\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cc249b5ab0ef512c0ce82eeeaa935850\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Look-Ass\Documents\Usachita\Redes\Mobile\appRedesWiFi-master\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\93daf1cb35fa3a75a8fbce228beafa79\AndroidManifest.xml:9:13-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\aa4004a544d9b30e8da5eba946fd4a6e\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\484a929f17a5b06621e445575531ff17\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\69a5c3e8f0b51b1ae109c657580b38fd\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Look-Ass\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\abe299de00a36bfb8aae1c9d3e35593d\AndroidManifest.xml:24:13-58

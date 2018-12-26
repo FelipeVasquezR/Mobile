@@ -10,6 +10,7 @@ import android.location.Location;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -146,6 +147,16 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onStart() {
         super.onStart();
+        Build myBuild = new Build();
+
+        String myModel = myBuild.MODEL;
+
+        String myDevice = myBuild.DEVICE;
+
+        String myBrand = myBuild.BRAND;
+
+        String myProduct = myBuild.PRODUCT;
+        Toast.makeText(this, myBrand+" "+myModel, Toast.LENGTH_LONG).show();
         setUserData();
     }
 
@@ -163,7 +174,7 @@ public class MainActivity extends AppCompatActivity
 
     public void setUserData()
     {
-        GoogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
+        //oogleSignInAccount account = GoogleSignIn.getLastSignedInAccount(this);
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
@@ -171,18 +182,41 @@ public class MainActivity extends AppCompatActivity
         TextView subHeader = (TextView) headerView.findViewById(R.id.subHeaderId);
         ImageView imageView = (ImageView) headerView.findViewById(R.id.imageView);
 
-        if(account != null)
+        Build myBuild = new Build();
+
+        String myModel = myBuild.MODEL;
+
+        System.out.println(myModel);
+
+        String myDevice = myBuild.DEVICE;
+        System.out.println(myDevice);
+
+        String myBrand = myBuild.BRAND;
+
+        System.out.println(myBrand);
+
+        String myProduct = myBuild.PRODUCT;
+
+        System.out.println(myProduct);
+
+        AlertDialog.Builder dialog = new AlertDialog.Builder(this, R.style.Theme_AppCompat_Light_Dialog);
+        dialog.setCancelable(false);
+        dialog.setTitle("Prueba de las variables");
+        dialog.setMessage(myDevice+" "+myBrand+" "+myModel+" "+myProduct);
+
+
+        /*if(account != null)
         {
             mainHeader.setText(account.getDisplayName());
             subHeader.setText(account.getEmail());
             Picasso.get().load(account.getPhotoUrl()).into(imageView);
         }
         else
-        {
+        {*/
             mainHeader.setText("AppRedesWiFi");
             subHeader.setText("Redes Computacionales 1-2018");
             imageView.setImageResource(R.mipmap.ic_launcher);
-        }
+        //}
     }
 
     @Override
@@ -364,11 +398,11 @@ public class MainActivity extends AppCompatActivity
         //Verifica si la red a la que esta conectada es de la usach
         String wifiName = wifiManager.getConnectionInfo().getSSID();
         Log.i("> WIFI NAME", wifiName);
-        if(!wifiName.equals("\"USACH-Alumnos\""))
+        /*if(!wifiName.equals("\"USACH-Alumnos\""))
         {
             Toast.makeText(MainActivity.this, "La red Wi-Fi no es USACH-Alumnos\nPor favor, conéctese a esta red", Toast.LENGTH_SHORT).show();
             return;
-        }
+        }*/
 
 
         //Verifica si el GPS esta activado
