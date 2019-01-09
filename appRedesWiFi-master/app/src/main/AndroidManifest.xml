@@ -51,6 +51,7 @@
 
         <activity android:name=".RegistrosActivity" />
         <activity android:name=".LoginActivity"></activity>
+
     </application>
 
 </manifest>

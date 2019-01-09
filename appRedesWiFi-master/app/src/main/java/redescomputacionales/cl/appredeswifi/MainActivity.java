@@ -12,6 +12,7 @@ import android.net.wifi.WifiManager;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AlertDialog;
@@ -25,9 +26,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.widget.*;
 import com.facebook.network.connectionclass.ConnectionClassManager;
 import com.facebook.network.connectionclass.ConnectionQuality;
 import com.facebook.network.connectionclass.DeviceBandwidthSampler;
@@ -57,7 +56,7 @@ import android.location.LocationManager;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener,
-        GoogleMap.OnMyLocationClickListener, GoogleMap.OnMarkerDragListener {
+        GoogleMap.OnMyLocationClickListener, GoogleMap.OnMarkerDragListener, AdapterView.OnItemSelectedListener {
 
     //Se agrega un MapFragment y un GoogleMap
     private SupportMapFragment mapFragment;
@@ -71,6 +70,10 @@ public class MainActivity extends AppCompatActivity
 
     //Posición GPS del dispositivo
     private LatLng gpsLocation;
+
+    private String[] salas = new String[]{"Sala 201", "Sala 517", "Sala 519", "Sala 520", "Sala 564", "Libre"};
+
+    private String sala = "nada";
 
     //Clase WifiInfo con los metodos para obtener datos de la coneccion
     private WifiManager wifiManager;
@@ -142,6 +145,14 @@ public class MainActivity extends AppCompatActivity
         mRunningBar = findViewById(R.id.runningBar);
         mRunningBar.setVisibility(View.GONE);
         mListener = new ConnectionChangedListener();
+
+        Spinner sp = findViewById(R.id.spinner);
+
+        //create an adapter to describe how the items are displayed, adapters are used in several places in android.
+        //There are multiple variations of this, but this is the basic variant.
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, this.salas);
+        //set the spinners adapter to the previously created one.
+        sp.setAdapter(adapter);
     }
 
     @Override
@@ -151,12 +162,16 @@ public class MainActivity extends AppCompatActivity
 
         String myModel = myBuild.MODEL;
 
-        String myDevice = myBuild.DEVICE;
+        String id = Settings.Secure.ANDROID_ID;
+
+        Build.VERSION version = new Build.VERSION();
+
+        String myVersion = version.RELEASE;
 
         String myBrand = myBuild.BRAND;
 
         String myProduct = myBuild.PRODUCT;
-        Toast.makeText(this, myBrand+" "+myModel, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, myBrand+" "+myModel+" "+myVersion+" "+this.sala, Toast.LENGTH_LONG).show();
         setUserData();
     }
 
@@ -444,6 +459,16 @@ public class MainActivity extends AppCompatActivity
 
         info = "Datos almacenados\n> Latitud: " + gpsLocation.latitude + "\n> Longitud: " + gpsLocation.longitude + "\n> Fecha: " + fechaHora + "\n> Intensidad Wi-Fi: " + String.valueOf(intensidad) + " dBm" + "\n> Velocidad Wi-Fi: " + String.valueOf(speed) + " Kbps" + "\n> Estado: " + estado;
         Toast.makeText(this, info, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+        this.sala = salas[i];
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
+
     }
 
     /**

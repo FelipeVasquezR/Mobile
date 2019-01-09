@@ -3,6 +3,7 @@ package redescomputacionales.cl.appredeswifi;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -106,8 +107,18 @@ public class RegistrosActivity extends AppCompatActivity {
         // Instantiate the RequestQueue.
         final RequestQueue[] queue = {Volley.newRequestQueue(RegistrosActivity.this)};
         //this is the url where you want to send the request
-        String url = "http://206.189.184.79:8091/redes/signals";
+        String url = "http://kamino.diinf.usach.cl/redes-0.0.1-SNAPSHOT/signals";
 
+        //Device characterists
+        Build myBuild = new Build();
+
+        String myModel = myBuild.MODEL;
+
+        Build.VERSION version = new Build.VERSION();
+
+        String myVersion = "Android " + version.RELEASE;
+
+        String myBrand = myBuild.BRAND;
 
         // Request a string response from the provided URL.
         for(i=0;i<cantidad;i++)
@@ -116,6 +127,8 @@ public class RegistrosActivity extends AppCompatActivity {
             String _latitud = arregloREST[i][1];
             String _longitud = arregloREST[i][2];
             String _fecha = arregloREST[i][3];
+            Toast toastPlain = Toast.makeText(context, _fecha, shortDuration);
+            toastPlain.show();
             String estado = arregloREST[i][4];
             String _velocidad = arregloREST[i][5];
             String _intensidad = arregloREST[i][6];
@@ -136,7 +149,7 @@ public class RegistrosActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             try {
-                postparams.put("fecha", _fecha);
+                postparams.put("fecha", "31/12/2018 11:12");
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -155,7 +168,31 @@ public class RegistrosActivity extends AppCompatActivity {
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
+            try {
+                postparams.put("lugar", "Diinf");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                postparams.put("modelo", myModel);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                postparams.put("marca", myBrand);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                postparams.put("version", myVersion);
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+            try {
+                postparams.put("sistemaOperativo", "app");
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
             bEnviar.setVisibility(View.GONE);
             mRunningBar.setVisibility(View.VISIBLE);
 
