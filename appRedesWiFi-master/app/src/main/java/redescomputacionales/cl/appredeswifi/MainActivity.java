@@ -147,6 +147,7 @@ public class MainActivity extends AppCompatActivity
         mListener = new ConnectionChangedListener();
 
         Spinner sp = findViewById(R.id.spinner);
+        sp.setOnItemSelectedListener(this);
 
         //create an adapter to describe how the items are displayed, adapters are used in several places in android.
         //There are multiple variations of this, but this is the basic variant.
@@ -464,6 +465,7 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         this.sala = salas[i];
+        Toast.makeText(this, this.sala, Toast.LENGTH_LONG).show();
     }
 
     @Override

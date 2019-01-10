@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 09 12:24:52 CLST 2019
+#Wed Jan 09 12:49:59 CLST 2019
 1.base=C\:\\Users\\Look-Ass\\Documents\\Usachita\\Redes\\Mobile\\appRedesWiFi-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
 2.path=classes.dex
 0.baseType=DIRECTORY
