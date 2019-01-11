@@ -1,4 +1,4 @@
-#Wed Jan 09 12:49:57 CLST 2019
-base.0=C\:\\Users\\Look-Ass\\Documents\\Usachita\\Redes\\Mobile\\appRedesWiFi-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+#Thu Jan 10 22:09:31 CLST 2019
+base.0=C\:\\Users\\Look-Ass\\Documents\\Usachita\\Redes\\Mobile\\appRedesWiFi-master\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

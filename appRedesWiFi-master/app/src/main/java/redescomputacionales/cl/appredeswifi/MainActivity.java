@@ -1,6 +1,7 @@
 package redescomputacionales.cl.appredeswifi;
 
 import android.annotation.SuppressLint;
+import android.provider.Settings.Secure;
 import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -27,6 +28,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.*;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.facebook.network.connectionclass.ConnectionClassManager;
 import com.facebook.network.connectionclass.ConnectionQuality;
 import com.facebook.network.connectionclass.DeviceBandwidthSampler;
@@ -51,8 +58,11 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import android.location.LocationManager;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, OnMapReadyCallback, GoogleMap.OnMyLocationButtonClickListener,
@@ -394,6 +404,7 @@ public class MainActivity extends AppCompatActivity
                 });
     }
 
+
     public void saveData()
     {
         //Verifica si el wifi esta activado
@@ -444,22 +455,169 @@ public class MainActivity extends AppCompatActivity
 
         intensidad = (double) connectionInfo.getRssi();
 
-        ConexionSQLiteHelper bdConn = new ConexionSQLiteHelper(MainActivity.this);
-        SQLiteDatabase db = bdConn.getWritableDatabase();
-        if (db != null) {
-            ContentValues registronuevo = new ContentValues();
-            registronuevo.put("latitud", gpsLocation.latitude);
-            registronuevo.put("longitud", gpsLocation.longitude);
-            registronuevo.put("fecha", fechaHora);
-            registronuevo.put("velocidad", speed);
-            registronuevo.put("intensidad", intensidad);
-            registronuevo.put("estado", estado);
+        final Context context = getApplicationContext();
+        final CharSequence postCorrect = "Datos ingresados correctamente";
+        final CharSequence postError= "Ha ocurrido un error con la subida de datos";
+        final int shortDuration = Toast.LENGTH_SHORT;
+        final int longDuration = Toast.LENGTH_LONG;
 
-            db.insert("registros", null, registronuevo);
+        // Instantiate the RequestQueue.
+        final RequestQueue[] queue = {Volley.newRequestQueue(MainActivity.this)};
+        //this is the url where you want to send the request
+        String url = "http://kamino.diinf.usach.cl/redes-0.0.1-SNAPSHOT/signals";
+
+        //Device characterists
+        Build myBuild = new Build();
+
+        String myModel = myBuild.MODEL;
+
+        Build.VERSION version = new Build.VERSION();
+
+        String myVersion = "Android " + version.RELEASE;
+
+        String myBrand = myBuild.BRAND;
+
+        String _latitud = String.valueOf(gpsLocation.latitude);
+        String _longitud = String.valueOf(gpsLocation.longitude);
+        String _fecha = fechaHora;
+        //Toast toastPlain = Toast.makeText(context, _fecha, shortDuration);
+        //toastPlain.show();
+        String estado = this.estado;
+        String _velocidad = String.valueOf(speed);
+        String _intensidad = String.valueOf(intensidad);
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(Calendar.getInstance().getTime());
+        int horas = cal.getTime().getHours();
+        String bloque;
+        if(horas >= 8 && horas < 12)
+        {
+            bloque = "Mañana";
         }
+        else if(horas >= 12 && horas < 18)
+        {
+            bloque = "Tarde";
+        }
+        else
+        {
+            bloque = "Noche";
+        }
+        String dia;
+        int day = cal.get(Calendar.DAY_OF_WEEK);
+        int lunes = Calendar.MONDAY;
+        int martes = Calendar.TUESDAY;
+        int mier = Calendar.WEDNESDAY;
+        int jueves = Calendar.THURSDAY;
+        if(day == lunes)
+        {
+            dia = "Lunes";
+        }
+        else if(day == martes)
+        {
+            dia = "Martes";
+        }
+        else if(day == mier)
+        {
+            dia = "Miercoles";
+        }
+        else if(day == jueves)
+        {
+            dia = "Jueves";
+        }
+        else
+        {
+            dia = "Viernes";
+        }
+        String android_id = Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);
+        JSONObject postparams=new JSONObject();
 
-        info = "Datos almacenados\n> Latitud: " + gpsLocation.latitude + "\n> Longitud: " + gpsLocation.longitude + "\n> Fecha: " + fechaHora + "\n> Intensidad Wi-Fi: " + String.valueOf(intensidad) + " dBm" + "\n> Velocidad Wi-Fi: " + String.valueOf(speed) + " Kbps" + "\n> Estado: " + estado;
-        Toast.makeText(this, info, Toast.LENGTH_SHORT).show();
+        try {
+            postparams.put("longitud", _longitud);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("latitud", _latitud);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("fecha", _fecha);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("estado", estado);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("lugar", this.sala);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("marca", myBrand);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("modelo", myModel);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("version", myVersion);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("velocidad", _velocidad);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("intensidad", _intensidad);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("idDevice", android_id);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("dia", dia);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        try {
+            postparams.put("bloque", bloque);
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest
+                (Request.Method.POST, url, postparams, new Response.Listener<JSONObject>() {
+
+                    @Override
+                    public void onResponse(JSONObject response) {
+                        mRunningBar.setVisibility(View.GONE);
+                        Toast toastPlain = Toast.makeText(context, postCorrect, shortDuration);
+                        toastPlain.show();
+                    }
+                }, new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        mRunningBar.setVisibility(View.GONE);
+                        Toast toastPlain = Toast.makeText(context, postError, shortDuration);
+                        toastPlain.show();
+                    }
+                });
+        RequestQueue r = Volley.newRequestQueue(getApplicationContext());
+
+        jsonObjectRequest.setTag("postRequest");
+
+        r.add(jsonObjectRequest);
     }
 
     @Override
